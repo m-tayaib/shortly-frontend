@@ -52,7 +52,7 @@ const MadeWithStory: React.FC = () => {
             <motion.p
                 className="text-gray-500 text-center font-light mb-6 max-w-xl"
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}s
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.7, delay: 0.2 }}
             >
