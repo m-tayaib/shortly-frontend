@@ -1,11 +1,9 @@
+import HomeLandingPage from "./LandingPage/HomeLandingPage"
+
  
 
 function App() {
-  
-
-  return (
-    <h1>hello</h1>
-  )
+  return   <HomeLandingPage />
 }
 
 export default App
