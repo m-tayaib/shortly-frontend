@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
                     >
                         <FiZap className="text-2xl mr-2" style={{ color: "#0066FF" }} />
                         <span className="text-2xl font-bold" style={{ color: "#0066FF" }}>
-                            <span style={{ color: "#0066FF" }}>s</span>hortly
+                            <span style={{ color: "#0066FF" }}>f</span>astly
                         </span>
                     </motion.div>
                     {/* Desktop Menu */}

@@ -57,6 +57,7 @@ const AllInOneSection = () => {
                 <motion.h3
                     initial={{ opacity: 0, x: -30 }}
                     whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                     className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 "
                 >
@@ -65,6 +66,7 @@ const AllInOneSection = () => {
                 <motion.p
                     initial={{ opacity: 0, x: -30 }}
                     whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
                     transition={{ duration: 0.7, delay: 0.1 }}
                     className="text-base sm:text-lg md:text-xl font-light text-neutral-600 mb-4"
                 >
@@ -73,6 +75,7 @@ const AllInOneSection = () => {
                 <motion.button
                     initial={{ opacity: 0, x: -30 }}
                     whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
                     transition={{ duration: 0.7, delay: 0.2 }}
                     className="flex items-center gap-2 bg-black text-white px-6 py-3 rounded-lg font-semibold text-base shadow hover:bg-[#222] transition"
                 >
