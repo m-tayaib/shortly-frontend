@@ -46,13 +46,13 @@ const MadeWithStory: React.FC = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
             >
-                Made with <span className="font-bold" style={{ color: '#0066FF' }}>Shortfy</span>
+                Made with <span className="font-bold text-[#6097ea]"   >fastly</span>
             </motion.h3>
             {/* Description */}
             <motion.p
                 className="text-gray-500 text-center font-light mb-6 max-w-xl"
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}s
                 viewport={{ once: true }}
                 transition={{ duration: 0.7, delay: 0.2 }}
             >

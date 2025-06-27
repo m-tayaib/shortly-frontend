@@ -2,6 +2,7 @@ import HeroSection from "../Sections/HeroSection"
 import TryItNowSection from "../Sections/TryItNowSection"
 import AllInOneSection from "../Sections/AllInOneSection"
 import MadeWithStory from "../Sections/MadeWithStory"
+import PerfectPlanSection from "../Sections/PerfectPlanSection"
 
 function HomeLandingPage() {
   return (
@@ -10,6 +11,7 @@ function HomeLandingPage() {
    <TryItNowSection/>
    <AllInOneSection />
    <MadeWithStory />
+   <PerfectPlanSection/>
    </>
   )
 }
