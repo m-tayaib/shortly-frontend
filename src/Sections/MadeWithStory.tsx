@@ -9,9 +9,10 @@ type SocialIcon = {
     color: string;
 };
 const images: string[] = [
-    'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
-    'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80',
-    'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
+    // Professional, HD, and relevant to AI, content creation, and social media
+    'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80', // AI/tech workspace
+    'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80', // Social media content creation
+    'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80', // Creative digital marketing
 ];
 
 const socialIcons: SocialIcon[] = [
@@ -60,7 +61,7 @@ const MadeWithStory: React.FC = () => {
             </motion.p>
             {/* Button */}
             <motion.button
-                className="flex items-center gap-2 bg-black text-white px-6 py-2 rounded-full font-medium mb-10 hover:bg-gray-900 transition-colors"
+                className="flex items-center gap-2 bg-black/40 text-white px-6 py-2 rounded-full font-medium mb-10 hover:bg-gray-900 transition-colors"
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
@@ -83,7 +84,7 @@ const MadeWithStory: React.FC = () => {
                         <img src={img} alt={`Inspiring Story ${idx + 1} preview`} className="w-full h-64 object-cover transition-opacity duration-300 group-hover:opacity-60" />
                         <div className="absolute inset-0 flex items-center justify-center">
                             <span className="text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                Inspiring Story {idx + 1}
+                                {img.includes("blog") ? "Featured Blog Post" : img.includes("video") ? "Viral Video" : `Fastly Creation #${idx + 1}`}
                             </span>
                         </div>
                     </motion.div>

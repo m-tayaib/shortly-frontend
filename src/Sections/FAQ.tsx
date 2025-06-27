@@ -46,7 +46,7 @@ const FAQSection: React.FC = () => {
       </h3>
       {/* Subtitle */}
       <p className="text-base sm:text-lg md:text-xl font-light text-center mb-8 max-w-2xl mx-auto">
-        everuthin you need to know about the fastly and our video  creation platfrom .
+        Everything you need to know about the fastly and our video  creation platfrom .
       </p>
       {/* FAQ List */}
       <div className="w-full max-w-2xl flex flex-col gap-4">
