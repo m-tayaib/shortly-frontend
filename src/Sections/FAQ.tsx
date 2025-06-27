@@ -42,7 +42,7 @@ const FAQSection: React.FC = () => {
     <section className="w-full py-16 px-3 sm:px-6 md:px-12 flex flex-col items-center bg-white">
       {/* Title */}
       <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-2">
-        FAQ asked questions
+        FAQ asked <span className="  text-[#6097ea]">  questions </span> 
       </h3>
       {/* Subtitle */}
       <p className="text-base sm:text-lg md:text-xl font-light text-center mb-8 max-w-2xl mx-auto">
