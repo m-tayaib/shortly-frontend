@@ -4,6 +4,7 @@ import AllInOneSection from "../Sections/AllInOneSection"
 import MadeWithStory from "../Sections/MadeWithStory"
 import PerfectPlanSection from "../Sections/PerfectPlanSection"
 import FAQSection from "../Sections/FAQ"
+import Footer from "../Sections/Footer"
 
 function HomeLandingPage() {
   return (
@@ -14,6 +15,7 @@ function HomeLandingPage() {
    <MadeWithStory />
    <PerfectPlanSection/>
    <FAQSection/>
+   <Footer/>
    </>
   )
 }
