@@ -6,8 +6,8 @@ const menuItems: string[] = [
     "demo",
     "feature",
     "examples",
-    "tesetomonial",
-    "priceing",
+    "testimonial",
+    "pricing",
     "faq",
 ];
 
